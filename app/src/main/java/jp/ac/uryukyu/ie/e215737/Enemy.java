@@ -38,6 +38,7 @@ public class Enemy {
 
     /**
      * Heroへ攻撃するメソッド。
+     * if文でhitPointの確認つまりモンスターのHPを確認し、モンスターが生き残っていた場合下記のコードを実行。
      * attackに応じて乱数でダメージを算出し、hero.wounded()によりダメージ処理を実行。
      * @param hero 攻撃対象
      */
