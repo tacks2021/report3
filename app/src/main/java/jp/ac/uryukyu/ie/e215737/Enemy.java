@@ -7,53 +7,53 @@ package jp.ac.uryukyu.ie.e215737;
  *  int attack; //敵の攻撃力
  *  boolean dead; //敵の生死状態。true=死亡。
  * Created by tnal on 2016/11/13.
- * Edit by Yuuki Takushi on 2021/11/15. 
+ * Edit by Yuuki Takushi on 2021/11/15.
  */
 public class Enemy {
     private String name;
     private int hitPoint;
     private int attack;
     private boolean dead;
-    public String getName() { return this.name; }
     /**
      * getName method.
-     * @param name
+     * @return this.name - 名前の取得
+     */
+    public String getName() { return this.name; }
+    /**
+     * setName method.
+     *　@param name 敵の名前
      */
     public void setName(String name) { this.name = name; }
     /**
-     * setName method.
-     * @return this.name
+     * getHitPoint method.
+     * @return this.hitPoint - HPを取得
      */
     public int getHitPoint() { return this.hitPoint; }
     /**
-     * getHitPoint method.
-     * @param hitPoint
+     * setHitPoint method.
+     * @param hitPoint 敵のHP
      */
     public void setHitPoint(int hitPoint) { this.hitPoint = hitPoint; }
     /**
-     * setHitPoint method.
-     * @return this.attack
+     * getAttack method.
+     * @return this.attack - 攻撃力を取得
      */
     public int getAttack() { return this.attack; }
     /**
-     * getAttack method.
-     * @param attack
+     * setAttack method.
+     * @param attack 敵の攻撃力
      */
     public void setAttack(int attack) { this.attack = attack; }
     /**
-     * setAttack method.
-     * @return this.attack
+     * getDead method.
+     * @return this.dead - 生存（死亡しているか）確認を取得
      */
     public boolean getDead() { return this.dead; }
     /**
-     * getDead method.
-     * @param dead
+     * setDead method.
+     * @param dead trueの場合->死亡
      */
     public void setDead(Boolean dead) { this.dead = dead; }
-    /**
-     * setDead method.
-     * @return this.dead
-     */
 
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
