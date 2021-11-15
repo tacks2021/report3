@@ -7,6 +7,7 @@ package jp.ac.uryukyu.ie.e215737;
  *  int attack; //敵の攻撃力
  *  boolean dead; //敵の生死状態。true=死亡。
  * Created by tnal on 2016/11/13.
+ * Edit by Yuuki Takushi on 2021/11/15. 
  */
 public class Enemy {
     private String name;
@@ -14,13 +15,45 @@ public class Enemy {
     private int attack;
     private boolean dead;
     public String getName() { return this.name; }
+    /**
+     * getName method.
+     * @param name
+     */
     public void setName(String name) { this.name = name; }
+    /**
+     * setName method.
+     * @return this.name
+     */
     public int getHitPoint() { return this.hitPoint; }
+    /**
+     * getHitPoint method.
+     * @param hitPoint
+     */
     public void setHitPoint(int hitPoint) { this.hitPoint = hitPoint; }
+    /**
+     * setHitPoint method.
+     * @return this.attack
+     */
     public int getAttack() { return this.attack; }
+    /**
+     * getAttack method.
+     * @param attack
+     */
     public void setAttack(int attack) { this.attack = attack; }
+    /**
+     * setAttack method.
+     * @return this.attack
+     */
     public boolean getDead() { return this.dead; }
+    /**
+     * getDead method.
+     * @param dead
+     */
     public void setDead(Boolean dead) { this.dead = dead; }
+    /**
+     * setDead method.
+     * @return this.dead
+     */
 
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
