@@ -14,45 +14,13 @@ public class Enemy {
     private int attack;
     private boolean dead;
     public String getName() { return this.name; }
-    /**
-     * getName method.
-     * @param name
-     */
     public void setName(String name) { this.name = name; }
-    /**
-     * setName method.
-     * @return this.name
-     */
     public int getHitPoint() { return this.hitPoint; }
-    /**
-     * getHitPoint method.
-     * @param hitPoint
-     */
     public void setHitPoint(int hitPoint) { this.hitPoint = hitPoint; }
-    /**
-     * setHitPoint method.
-     * @return this.attack
-     */
     public int getAttack() { return this.attack; }
-    /**
-     * getAttack method.
-     * @param attack
-     */
     public void setAttack(int attack) { this.attack = attack; }
-    /**
-     * setAttack method.
-     * @return this.attack
-     */
     public boolean getDead() { return this.dead; }
-    /**
-     * getDead method.
-     * @param dead
-     */
     public void setDead(Boolean dead) { this.dead = dead; }
-    /**
-     * setDead method.
-     * @return this.dead
-     */
 
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
