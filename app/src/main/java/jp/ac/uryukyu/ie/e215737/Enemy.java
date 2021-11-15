@@ -21,7 +21,7 @@ public class Enemy {
     public String getName() { return this.name; }
     /**
      * setName method.
-     *　@param name 敵の名前
+     * @param name 敵の名前
      */
     public void setName(String name) { this.name = name; }
     /**

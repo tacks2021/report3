@@ -21,7 +21,7 @@ public class Hero {
     public String getName() { return this.name; }
     /**
      * setName method.
-     *　@param name ヒーローの名前
+     * @param name ヒーローの名前
      */
     public void setName(String name) { this.name = name; }
     /**
